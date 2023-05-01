@@ -1,0 +1,17 @@
+when flag clicked
+set Fruta to ""
+ask "¿Qué fruta deseas para tu jugo?" and wait
+set Fruta to answer
+
+if Fruta = "Manzana" then
+    say "Preparando jugo de manzana"
+    //bloques para preparar jugo de manzana
+else if Fruta = "Naranja" then
+    say "Preparando jugo de naranja"
+    //bloques para preparar jugo de naranja
+else if Fruta = "Pera" then
+    say "Preparando jugo de pera"
+    //bloques para preparar jugo de pera
+else
+    say "Lo siento, no se puede preparar un jugo de esa fruta"
+end
